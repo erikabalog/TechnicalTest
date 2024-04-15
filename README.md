@@ -40,7 +40,7 @@ Created endpoints to handle user registration and login processes.
 
 Established database connection and imported necessary modules (connectToMongoDB, User).
 Implemented logic to hash passwords using bcryptjs and save user data to the database.
-NOTE: I currently have an issue ongoing where I always get a 500 error when signing up, but I can't figure out why. I've invested a few hours into research but since I couldn't find the error, I decided to send the test like this anyway because of the deadline, but I have 2 users successfully registered in the database, just stopped working for some reason. Will keep looking to fix it and will update you when I fix it.
+PROBLEM: I currently have an issue ongoing where I always get a 500 error when signing up, but I can't figure out why. I've invested a few hours into research but since I couldn't find the error, I decided to send the test like this anyway because of the deadline, but I have 2 users successfully registered in the database, just stopped working for some reason. Will keep looking to fix it and will update you when I fix it.
 
 # Signup Process (Frontend)
 
@@ -74,4 +74,6 @@ Used axios, Link, and useRouter from Next.js for logout functionality.
 Designed a simple button as UI components to logout user.
 Implemented redirection to the home page upon successful logout.
 
-NOTE: Profile page is not protected from unathenticated user because I didn't have enough time to implement it. Will try to add it later and update you.
+PROBLEM: Profile page is not protected from unathenticated user because I didn't have enough time to implement it. Will try to add it later and update you.
+
+TOTAL TIME TO IMPLEMENT (APROX.): 16-18h
